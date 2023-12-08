@@ -1,0 +1,65 @@
+*{ box-sizing: border-box;}
+
+body{
+    margin: 10px;
+    padding: 10;
+    font-family: 'Roboto', sans-serif;
+    font-size:  15px; ;
+    background-color: #e2cac9;
+}
+/* estilos header*/
+header{ 
+    padding: 60px;
+    text-align: center;
+    background-image:url(../img/descarga\ \(2\).jfif) ;
+    
+
+}
+
+.tendenciasimg{
+    margin-top: 50px;
+    width: 490px;
+    height: 510px;
+}
+
+.tendenciastitle{
+    text-align: center;
+    background-color: #ca9fbf;
+    border-radius: 10px;
+}
+
+/* estilo navbar */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-nav a:hover{
+    background-color: #ca9fbf;
+    color: azure;
+}
+
+/* estilo carrusel */
+#carouselExample img{
+    width: 75%;
+    height: 85vh;
+    margin-top: 10px;
+}
+
+@media (max-width:800px) {
+    #carouselExample{
+    height:30vh ;}
+}
+
+
+@media (max-width:800px) {
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+
+
+
+
